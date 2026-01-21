@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather predictor</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="box">
+        <div class="bar">
+        <input type="text" class="search" placeholder=" enter your city name">
+        <button class="sicon">
+            <img id="icons" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/search.png?raw=true" alt="">
+        </button>
+        </div>
+        <div class="starting">
+            <img src="assets/message/search-city.png" alt="">
+            <h2>search the city of which you want to search weather</h2>
+        </div>
+        <div class="error">
+            <img src="assets/message/not-found.png" alt="">
+        </div>
+        <div class="photo">
+            <img id="clear" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/clear.png?raw=true" alt="">
+            <img id="clouds" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/clouds.png?raw=true" alt="">
+            <img id="drizzle" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/drizzle.png?raw=true" alt="">
+            <img id="mist" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/mist.png?raw=true" alt="">
+            <img id="rain" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/rain.png?raw=true" alt="">
+            <img id="snow" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/snow.png?raw=true" alt="">
+        </div>
+        <h1 id="first"></h1>
+        <h3 id="place"></h3>
+        <div class="end">
+            <div class="humidity">
+                <img id="humid" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/humidity.png?raw=true" alt="">
+                <div class="text">
+                <h1></h1>
+                <h3>humidity</h3>
+                </div>
+            </div>
+            <div class="wind">
+                <img id="windd" src="https://github.com/ironcodingofficial/weather-app/blob/main/img/wind.png?raw=true" alt="">
+                <div class="text2">
+                    <h1></h1>
+                    <h3>wind speed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
