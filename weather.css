@@ -18,7 +18,7 @@ body{
     backdrop-filter: blur(10px);
     margin-top: 50px;
     margin-bottom: 30%;
-    width: 450px;
+    width: 350px;
     height: 600px;
     display: flex;
     flex-direction: column; 
@@ -34,11 +34,11 @@ body{
 .bar{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 .search{
     margin-top: 30px;
-    width: 300px;
+    width: 230px;
     border-radius: 40px;
     border: none;
     font-size: 20px;
@@ -59,14 +59,12 @@ body{
     overflow: hidden;
 }
 .search:hover{
-  transform: scale(1.12);
-  cursor: pointer;
+  transform: scale(1.05);
   box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
 }
 
 .sicon:hover{
-  transform: scale(1.12);
-  cursor: pointer;
+  transform: scale(1.05);
   box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
 }
 
@@ -105,20 +103,20 @@ h3{
 .end{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
 .humidity{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     display:none;
     padding-bottom: 30px;
 }
 .wind{
     display: flex;
     padding-bottom: 30px;
-    gap: 15px;
+    gap: 10px;
     display: none;
 }
 #first{
@@ -149,10 +147,19 @@ h3{
     text-align: center;
 }
 .error{
-    width: 404px;
-    display: none;
+    width: 300px;
+    display:none; 
 }
 .error img{
-    width: 404px;
+    width: 290px;
     
+}
+.wind img{
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.humidity img{
+    width: 30px;
+    height: 30px;
 }
