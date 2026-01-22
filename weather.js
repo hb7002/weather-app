@@ -23,7 +23,6 @@ async function weather(area){
         photo.style.display="none";
         win.style.display="none";
         hum.style.display="none";
-        alert("INVALID CITY NAME");
         p.innerHTML="INVALID CITY NAME";
         
     }
@@ -78,4 +77,5 @@ async function weather(area){
 }
 city.addEventListener("click",()=>{
     weather(enter.value);
+
 })
